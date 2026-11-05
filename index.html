@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My AIssistant — deliveries for Pro Tools engineers</title>
+<meta name="description" content="My AIssistant is a macOS app for audio engineers: it exports masters, stems and multitracks from Pro Tools and delivers them to clients through Google Drive and Gmail.">
+<style>
+  :root { --bg:#0e0e10; --card:#18181b; --text:#f4f4f5; --muted:#a1a1aa; --accent:#e8743b; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px 64px; }
+  h1 { font-size:34px; margin:0 0 6px; }
+  .tag { color:var(--accent); font-weight:600; letter-spacing:.08em; font-size:12px; text-transform:uppercase; }
+  p.lead { color:var(--muted); font-size:18px; }
+  section { background:var(--card); border-radius:14px; padding:20px 22px; margin:22px 0; }
+  h2 { font-size:19px; margin:0 0 8px; }
+  ul { margin:0; padding-left:20px; }
+  li { margin:4px 0; }
+  a { color:var(--accent); }
+  footer { color:var(--muted); font-size:14px; margin-top:36px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="tag">macOS app · beta</div>
+  <h1>My AIssistant</h1>
+  <p class="lead">An assistant for music producers and mix &amp; mastering engineers who work in Pro Tools. Type what you need — “export the master, stems and multitracks of this song and email them to the artist” — and it does the rest.</p>
+
+  <section>
+    <h2>What it does</h2>
+    <ul>
+      <li>Finds the Pro Tools session on your Mac or external drives and opens it.</li>
+      <li>Exports masters, stems (one per group) and multitracks, and checks them (true peak, silent files, stems that add up to the mix).</li>
+      <li>Uploads the files to a folder in <strong>your own Google Drive</strong> and creates a download link.</li>
+      <li>Sends the delivery email to your client <strong>from your own Gmail account</strong>, with an optional daily reminder until the link expires.</li>
+      <li>Keeps a history of every delivery on your Mac.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Google account access</h2>
+    <p>When you connect your Google account, My AIssistant asks only for what it needs to deliver files on your behalf:</p>
+    <ul>
+      <li><strong>Google Drive (files created by the app):</strong> to upload your exports and share their folder with your client. The app cannot see any other file in your Drive.</li>
+      <li><strong>Gmail (send only):</strong> to send the delivery emails you ask for. The app cannot read your inbox.</li>
+      <li><strong>Your email address:</strong> to show which account is connected and to sign the emails.</li>
+    </ul>
+    <p>Everything runs on your Mac. There is no My AIssistant server. Details in the <a href="privacy.html">Privacy Policy</a>.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions, support or data requests: <a href="mailto:mozartmuzik2@gmail.com">mozartmuzik2@gmail.com</a></p>
+  </section>
+
+  <footer>
+    © 2026 MozartMuzik · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a>
+  </footer>
+</main>
+</body>
+</html>
