@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>My AIssistant</title>
+    <link>https://mozartmuzik.github.io/appcast.xml</link>
+    <description>Updates for My AIssistant</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.1.0 (7)</title>
+      <pubDate>Fri, 06 Nov 2026 23:20:31 GMT</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Automatic updates: the app checks for new versions by itself (My AIssistant › Check for Updates…).</li><li>After exporting, an away email confirms the client&#x27;s email was sent (or says why not).</li><li>Alert when Pro Tools loses its iLok license, before Pro Tools closes by itself.</li><li>Pro Tools in Spanish works too.</li></ul>]]></description>
+      <enclosure url="https://github.com/mozartmuzik/mozartmuzik.github.io/releases/download/v1.1.0-7/My-AIssistant-1.1.0-7.dmg" sparkle:edSignature="osGpOZWXKygX+umtViQU58TUd6wjfYq/2bB+Elve7dW9/mx8eEntpEjaKh1k86/xjXxf/Wh5J87EXNO0+RNwAA==" length="21568118" type="application/octet-stream"/>
+    </item>
+    
+  </channel>
+</rss>
